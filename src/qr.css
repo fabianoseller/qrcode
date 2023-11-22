@@ -14,8 +14,8 @@
 
 
 {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 20;
   box-sizing: border-box;
 }
 
@@ -46,8 +46,20 @@ body {
   top: top;
 }
 
+#inputText{
+  vertical-align: super;
+  line-height: 240%;
+  justify-content: center;
+  border: 3px solid #1b1915;
+
+ 
+
+}
+
 #btn {
+  
   display: contents;
+ 
   vertical-align: super;
   line-height: 140%;
   justify-content: middle;
@@ -57,7 +69,7 @@ body {
 
 #btn {
   background-color: #4CAF50; /* Green */
-  border: none;
+  border: 2px dashed;
   color: white;
   padding: 15px 32px;
   text-decoration: none;

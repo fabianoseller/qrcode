@@ -1,5 +1,15 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
 #qrcode {
-  width:160px;
-  height:160px;
-  margin-top:15px;
+  width: 160px;
+  height: 160px;
+  margin-top: 15px;
 }

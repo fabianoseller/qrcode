@@ -1,6 +1,96 @@
+
+
+<style>
+.right{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+  
+</style>
+<div class="right">
+<span>right div</span>
+</div>
+
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  background-color: chocolate;
+  padding: 10px;
+  margin: 50px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content:top;
+  align-items: center;
+
+}
+
+  .item {
+
+    background-color: rgb(38, 43, 43);
+    color: burlywood;
+    font-size: 35px;
+    padding: 20;
+    margin: 10px;
+  }
+
 body {
   background-color: rgb(154, 161, 147);
+  top: top;
+}
+
+#btn {
+  display: contents;
+  vertical-align: super;
+  line-height: 140%;
+  justify-content: middle;
+
   
 }
 
-align-items: stretch;
+#btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: flex;
+  justify-content: middle;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#imageQrcode {
+  background-color: #d0e2d0; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 
+  margin: 32px;
+  text-align: middle;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+   background-size: cover;
+  background-position: center;
+  
+}
